@@ -3,18 +3,19 @@
   
   <head>
     <title>BookClub</title>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="script.js"></script> 
   </head>
   
   <body>
     <h1>My Books</h1>
 
-    <form action="placeholder_title.php">
+    <form>
     Title: <input type="text" name="title" value="">
-    <input type="submit" value="Submit">
+      <button onclick="addEntry()" class="smallButton">Submit</button>
     </form> 
 
-  
+    <br>
     <table>
       <tr>
         <th>Title</th>
