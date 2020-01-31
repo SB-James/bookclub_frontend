@@ -3,6 +3,7 @@
   
   <head>
     <title>BookClub</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script type="text/javascript" src="script.js"></script> 
   </head>
@@ -10,9 +11,9 @@
   <body>
     <h1>My Books</h1>
 
-    <form>
-    Title: <input type="text" name="title" value="">
-      <button onclick="addEntry()" class="smallButton">Submit</button>
+    <form method="GET">
+    Title: <input type="text" name="title" value="" id="title">
+      <button class="smallButton" id="submitBtn">Submit</button>
     </form> 
 
     <br>
