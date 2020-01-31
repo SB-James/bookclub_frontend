@@ -11,7 +11,7 @@ function addEntry() {
     alert(request.status);
   }
   
-  request.open("GET", "proxy.php");
+  request.open("GET", "https://fast-plains-27310.herokuapp.com/proxy.php");
   request.send();
   console.log("did stuff");
 }
