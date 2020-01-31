@@ -8,7 +8,7 @@ function addEntry() {
   console.log("startttt");
   var request = new XMLHttpRequest();
   request.onreadystatechange = function() {
-    alert(this.responseText);
+    alert(request.status);
   }
   
   request.open("GET", "proxy.php");
