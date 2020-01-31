@@ -7,7 +7,7 @@ function setup() {
 function addEntry() {
   console.log("startttt");
   var request = new XMLHttpRequest();
-  request.onreadystatechange = function() {
+  request.onload = function() {
     alert(request.status);
   }
   
