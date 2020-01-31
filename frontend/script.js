@@ -14,4 +14,4 @@ function addEntry() {
   request.open("GET", "proxy.php");
   request.send();
   console.log("did stuff");
-}
+} 
